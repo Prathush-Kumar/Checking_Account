@@ -4,7 +4,7 @@ public class CheckingAccount extends BankAccount {
     private int overdraftFee = 0; // The fee to be charged when the account goes into overdraft.
 
     // Debit the account with the given amount.
-    public boolean debit(int amount) {
+    public boolean debit(int amount) { 
         balance -= amount;
 
         // If the account goes into overdraft (balance < 0), deduct the overdraft fee.
