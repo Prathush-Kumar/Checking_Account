@@ -1,7 +1,7 @@
 // The CheckingAccount class extends the BankAccount class to represent a checking account.
 
 public class CheckingAccount extends BankAccount { 
-    private int overdraftFee = 0; // The fee to be charged when the account goes into overdraft. 
+    private int overdraftFee = 0; // The fee to be charged when the account goes into overdraft.  
 
     // Debit the account with the given amount.
     public boolean debit(int amount) { 
