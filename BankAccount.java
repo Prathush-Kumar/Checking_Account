@@ -1,5 +1,5 @@
 // The BankAccount class is an abstract class that serves as the base for different types of bank accounts.
-
+ 
 public abstract class BankAccount {
     protected String accountID = "0000-0000-0000-0000"; // The account ID, initialized to a default value.
     protected double interestRate = 0.0; // The interest rate for the account, initialized to 0.0.
